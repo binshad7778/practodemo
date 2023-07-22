@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+  overflow-x: hidden;
+}
+.practologo {
+  width: 100px;
+}
+.container1 {
+  width: 100%;
+  background-color: aqua;
+  border: 1px solid gray;
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border: 1px solid gray;
+
+  /* background: #000; */
+  height: 100px;
+}
+.dropdownhover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.dropdownhover:hover {
+  color: black;
+}
+.navbar1 {
+  background-color: antiquewhite;
+}
+.verified {
+  width: 20px;
+  height: 15px;
+  border-radius: 10px;
+}
+.btnlogin {
+  border: 1px solid gray;
+  height: 30px;
+  border-radius: 3px;
+  color: gray;
+  font-size: small;
+  width: 150px;
+}
+.btnlogin:hover {
+  color: blue;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.homemain {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+}
+.locationinput {
+  width: 200px;
+}
+.doctorinput {
+  width: 400px;
+}
+.search_location {
+  width: 250px;
+  height: 34px;
+}
+.search_location_doctors {
+  width: 450px;
+  height: 34px;
+}
+.first_doc_img {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_img {
+  /* border: 1px solid black; */
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.input_only {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  /* background-color: aqua; */
+  height: 600px;
+  width: 80%;
+  justify-content: space-around;
+}
+.card_doc {
+  /* border: 1px solid black; */
+  width: 200px;
+  border-radius: 15px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  /* padding: 10px; */
+  -webkit-box-shadow: 2px 6px 38px -8px rgba(112, 112, 112, 1);
+  -moz-box-shadow: 2px 6px 38px -8px rgba(112, 112, 112, 1);
+  box-shadow: 2px 6px 38px -8px rgba(112, 112, 112, 1);
+}
+.card_img {
+  /* border: 1px solid black; */
+  background-color: #afcfed;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+}
+.card_img_sec {
+  /* border: 1px solid black; */
+  background-color: #98cbd6;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 200px;
+}
+.card_b_img {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card_c_img {
+  color: gray;
+  font-size: 14px;
+}
+.card_p {
+  /* background-color: aqua; */
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.all_card_doc {
+  display: flex;
+  justify-content: space-around;
+}
+.all_in_card_doc {
+  /* background-color: blue; */
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+}
+.con_ {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(42, 42, 42);
+}
+.con_txt {
+  display: flex;
+  flex-direction: column;
+}
+.con_txt_but {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+}
+.in_con_txt_but {
+  /* background-color: blue; */
+  width: 81%;
+  display: flex;
+  justify-content: space-between;
+}
+.con_but {
+  color: rgb(20, 190, 240);
+  border: 2px solid rgb(20, 190, 240);
+  width: 165px;
+  height: 47px;
+  background-color: #fff;
+  /* padding: 10px; */
+}
+.consult_card {
+  /* border: 1px solid black; */
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  color: rgb(38, 38, 38);
+  font-weight: 500;
+  cursor: pointer;
+}
+.consult_link {
+  text-decoration: none;
+  color: rgb(54, 235, 235);
+}
+.all_consult_card {
+  display: flex;
+  justify-content: center;
+}
+.in_all_consult_card {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.sec_page {
+  /* background-color: aqua; */
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.dent_img_txt {
+  /* border: 1px solid black;- */
+  width: 302px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.dent_a_text {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(35, 35, 35);
+  text-decoration: none;
+}
+.dent_b_text {
+  font-size: 15px;
+  /* font-weight: 500; */
+  color: rgb(35, 35, 35);
+  text-decoration: none;
+}
+.dent_txt_only {
+  display: flex;
+  flex-direction: column;
+}
+.all_dent_img_txt {
+  display: flex;
+  justify-content: space-around;
+}
+.carousel_head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.coro_na {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 310px;
+}
+
+.all_cor_vitamines {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.all_left_cor_vitamines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  /* background-color: aquamarine; */
+  height: 240px;
+}
+
+.read_top {
+  font-size: 25px;
+  font-weight: 500;
+}
+.health_art {
+  font-size: 13px;
+}
+.health_art_butt {
+  width: 135px;
+  height: 49px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 4px;
+}
+.left_read_only {
+  display: flex;
+  flex-direction: column;
+}
+.cor_link {
+  text-decoration: none;
+  color: green;
+  font-weight: 500;
+  font-size: 13px;
+}
+.cor_link_second {
+  text-decoration: none;
+  color: rgb(23, 26, 23);
+  font-weight: 500;
+  font-size: 17px;
+}
+.cor_link_third {
+  text-decoration: none;
+  color: rgb(23, 26, 23);
+  /* font-weight: 500; */
+  font-size: 14px;
+}
+.in_all_cor_vitamines {
+  display: flex;
+  width: 82%;
+  justify-content: space-around;
+  /* background-color: #fff; */
+}
+.foot_column {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-size: 14px;
+}
+.all_foot {
+  background-color: rgb(40, 50, 140);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 550px;
+  /* align-items: center; */
+}
+.link_foot {
+  text-decoration: none;
+  color: white;
+}
+.link_foot:hover {
+  color: white;
+  text-decoration: underline;
+}
+.foot_link_only {
+  display: flex;
+  /* background-color: #c72020; */
+  height: 340px;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.foot_logo {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-content: space-around;
+  height: 110px;
+}
+.link_foot_h {
+  color: white;
+  font-weight: 700;
+}
+.fixed_img {
+  /* background-color: rgb(157, 156, 104); */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  padding-right: 20px;
+  z-index: 2;
+  /* padding-bottom: 750px; */
+}
+.health_art_butt_last {
+  width: 115px;
+  height: 46px;
+  color: white;
+  background-color: rgb(0, 171, 251);
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.dwnld_pract_right {
+  display: flex;
+  flex-direction: column;
+  /* background-color: aqua; */
+  justify-content: space-around;
+  width: 470px;
+  height: 300px;
+}
+.dwnld_pract {
+  display: flex;
+  /* background-color: chartreuse; */
+  justify-content: center;
+  height: 70vh;
+}
+.in_dwnld_pract {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #fff; */
+  width: 80%;
+}
+.input_pract {
+  width: 300px;
+}
+.google_pract {
+  display: flex;
+  width: 320px;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.head_pract_upfoot {
+  font-size: 35px;
+  font-weight: 500;
+}
+.input_health_art_butt {
+  /* background-color: brown; */
+  display: flex;
+  justify-content: space-between;
+}
+.ammachi {
+  width: 320px;
+  height: 370px;
+}
+.d-block {
+  width: 100px;
+  height: 400px;
+}
+.carousel_all {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-item {
+  width: 800px;
+}
+.video_all {
+  background-color: rgb(248, 233, 230);
+  height: 400px;
+  display: flex;
+}
+.doc3_images {
+  width: 120px;
+  height: 70px;
+}
+.video_btn_consult {
+  background-color: rgb(25, 159, 217);
+  color: white;
+  border: 0px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.first_part_of_video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 400px;
+  position: relative;
+  left: 50px;
+}
+.irikkunna_thalla {
+  height: 300px;
+  position: relative;
+  top: 100px;
+}
+.video_h2_muthal {
+  width: 100%;
+  position: relative;
+}
+.video_h2_muthal_here_we_go {
+  width: 100%;
+}
+.card {
+  width: 150px;
+  align-items: center;
+}
+.price {
+  color: rgb(144, 144, 157);
+}
+.price1 {
+  color: rgb(111, 195, 231);
+  font-weight: 600;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.video_part_all_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+.card-img-top {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+}
+.position_set_aakan_ullath {
+  position: relative;
+  left: 50px;
+  padding-top: 30px;
+}
+.modal1 {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(255, 255, 255); */
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: space-around;
+  
+}
+.content{
+  font-size: 27px;
+  font-weight: 700;
+
+}
+.places_set_aakan_ullath{
+  display: flex;
+  flex-direction: column;
+  
+}
+.place_main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+}
+.carousel_all_for_css{
+  width: 80%;
+position: relative;
+left: 125px;
+  
+}
+.mandan_pic{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  background-color: rgb(230,245,252);
+  width: 90%;
+position: relative;
+left: 50px;
+
+}
+.text_of_mandan{
+  text-align: center;
+  align-items: center;
+
+}
+.phone_of_mandan{
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.card {
+  width: 190px;
+  height: 210px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+ }
+ 
+
+ 
+ .card-info {
+  padding-top: 10%;
+  /* background-color: chartreuse; */
+  height: 150px;
+ }
+ 
+ svg {
+  width: 20px;
+  height: 20px;
+ }
+ 
+ .card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  /* background-color: chocolate; */
+  height: 60px;
+ }
+ 
+ /*Text*/
+ .text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5;
+  /* background-color: aqua; */
+ }
+ 
+ .text-body {
+  font-size: .9em;
+  padding-bottom: 10px;
+ }
+ 
+ /*Button*/
+ .card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out;
+ }
+ 
+ /*Hover*/
+ .card-img:hover {
+  transform: translateY(-25%);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px;
+ }
+ 
+ .card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6;
+ }
+ 
